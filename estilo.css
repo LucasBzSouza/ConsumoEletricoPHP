@@ -1,0 +1,107 @@
+@keyframes gradient {
+    0% {
+        background-position: 1%, 50%;
+    }
+    50% {
+        background-position: 100%, 50%;
+    }
+    100% {
+        background-position: 0%, 50%;
+    }
+}
+
+body {
+     
+    background:linear-gradient(45deg,#222831,#393e46,#00adb5,#eeeeee);
+    background-size: 200% 200%;
+    animation: gradient 8s ease  infinite; 
+    animation-iteration-count: infinite;
+    
+}
+
+body div {
+
+}
+
+.container {
+     
+     
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #DDDDDD;
+    margin: 10%;
+    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    flex-wrap: wrap;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+    opacity: 10; 
+}
+
+.formulario input {
+    flex-direction: Column;
+    margin: 20px;    
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 0px; 
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 1;
+    
+}
+
+botao{
+    width: 150px;
+    transition:ease;
+    box-shadow: 10px, 10px, 5px, #222831; 
+}
+
+.botao:hover {
+     
+    width: 200px;
+}
+
+.formulario p {
+    display: flex;
+    flex-direction: Column;
+    background-color: #DDDDDD;
+    margin-bottom: 0px; 
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 1;
+     
+}
+p {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #DDDDDD;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    margin-top: -10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 5%; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: -100px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
